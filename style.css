@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+li {
+	margin-left: 70px;
+    font-size: 20px;
+}
+
+body {
+	background-image: url(https://cdn.pixabay.com/photo/2014/12/24/05/02/drop-of-water-578897_960_720.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.nav {
+	background-color: purple;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	border: 1px solid #eee;
+}
+
+.logo {
+	margin-left: 40px;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 30px	;
+    
+}
+
+h3 {
+	color: white;
+	font-family: tahoma;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 230px;
+}
+
+header {
+	position: relative;
+}
+
+p {
+	color: white;
+	font-family: tahoma;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
+ul {
+	float: right;
+	display: flex;
+	padding-top: 5px;
+	margin-right: 50px;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn {
+	background-color: blue;
+	padding: 20px 40px 20px 40px;
+	border-radius: 15px;
+    margin: 110px 650px;
+    font-size: 15px;
+}
+
+.btn:hover {
+	background-color: white;
+	transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.madal{
+width: 450px;
+border: 2px solid black;
+border-radius: 10px;
+background: black;
+position: relative;
+transform:translateY(-10000px);
+transition: all 1s ease;
+margin: 0 auto;
+}
+
+.amal{
+    transform: translateY(-600px);
+}
+
+form input{
+    padding: 10px 5px;
+    
+}
+
+.madal form{
+    display: flex;
+    flex-direction: column;
+}
+
+.madal h2{
+    text-align: center;
+    color: white;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    }
+
+h2{
+    color: white;
+}
+
+input{
+    margin: 10px 10px;
+    padding: 10px 5px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn2 input{
+    width: 45%;
+    cursor: pointer;
+  }
+
+.text{
+	max-width: 800px;
+	width: 100%;
+    margin: 0 auto;
+	padding-top: 100px;
+}
+
+  
